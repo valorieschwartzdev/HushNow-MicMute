@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HushNow", "HushNow\HushNow.csproj", "{A098D515-6F42-4DFD-84BB-D7DEB8D0A880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HushNowLauncher", "HushNowLauncher\HushNowLauncher.csproj", "{EFF75353-3642-4D33-AFD4-C4F2FF29337B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,9 +12,5 @@ Global
 		{A098D515-6F42-4DFD-84BB-D7DEB8D0A880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A098D515-6F42-4DFD-84BB-D7DEB8D0A880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A098D515-6F42-4DFD-84BB-D7DEB8D0A880}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFF75353-3642-4D33-AFD4-C4F2FF29337B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFF75353-3642-4D33-AFD4-C4F2FF29337B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFF75353-3642-4D33-AFD4-C4F2FF29337B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFF75353-3642-4D33-AFD4-C4F2FF29337B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

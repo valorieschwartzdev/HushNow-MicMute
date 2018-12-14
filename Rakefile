@@ -2,8 +2,8 @@ require 'fileutils'
 
 namespace :build do
 	task :publish do
-		FileUtils.cp_r 'HushNow/bin/Release', 'Release'
-		FileUtils.cp_r 'HushNowLauncher/bin/Release', 'Release'
+		dest = '.';
+		FileUtils.cp_r 'HushNow/bin/Release', dest
 		puts 'Publish successful'
 	end
 end
