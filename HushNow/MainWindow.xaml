@@ -1,0 +1,12 @@
+﻿<Window x:Class="HushNow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="HushNow" Height="74.51" Width="253.431" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Button Content="Toggle" Click="MuteButton_OnClick" Margin="0,13,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75"/>
+        <Label x:Name="LblStatus" Content="Status" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="148" FontWeight="Bold"/>
+    </Grid>
+</Window>

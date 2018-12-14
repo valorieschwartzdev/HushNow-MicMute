@@ -1,0 +1,15 @@
+﻿<Window x:Class="HushNow.HotkeySelectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HushNow"
+        mc:Ignorable="d"
+        Title="Hotkey Edit" Height="135.445" Width="201.261" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Enter a hotkey:" Margin="10,10,10,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtHotkey" Height="23" Margin="10,41,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:Name="BtnSave" Content="Save" HorizontalAlignment="Right" Margin="0,0,10,10" Width="42" Height="20" VerticalAlignment="Bottom"/>
+        <Button x:Name="BtnCancel" Content="Cancel" HorizontalAlignment="Right" Margin="0,0,57,10" Width="42" Height="20" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
